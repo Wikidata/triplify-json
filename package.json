@@ -1,0 +1,18 @@
+{
+  "name": "@wikidata/triplify-json",
+  "version": "0.0.1",
+  "description": "",
+  "main": "triplify-json.js",
+  "files": [
+    "examples/rome.json"
+  ],
+  "scripts": {
+    "test": "node triplify-json.js examples/rome.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "n3": "^1.10.0"
+  }
+}

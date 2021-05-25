@@ -192,7 +192,7 @@ const RankToRdf = {
   "deprecated": pname('wikibase', 'DeprecatedRank'),
 }
 
-console.log(dumpQuads(conv('Q38', JSON.parse(Fs.readFileSync('rome.json', 'utf-8')))))
+console.log(dumpQuads(conv('Q38', JSON.parse(Fs.readFileSync(process.argv[2], 'utf-8')))))
 
 /* a dumpQuads function I had lying around:
  */
