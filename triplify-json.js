@@ -21,6 +21,10 @@ function conv (qid, json_item) {
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'reference'), pname('pr', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'referenceValue'), pname('prv', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'novalue'), pname('wdno', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'directClaimNormalized'), pname('wdtn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'qualifierValueNormalized'), pname('pqn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'referenceValueNormalized'), pname('prn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'statementValueNormalized'), pname('psn', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'propertyType'), namedNode(PropertyType[json_item['claims'][pid][0]["mainsnak"]["datatype"]])))
 
     let preferredSet = json_item['claims'][pid].find(
