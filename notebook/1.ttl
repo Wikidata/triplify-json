@@ -1,0 +1,621 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix schema: <http://schema.org/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+wd:Q12862823 owl:sameAs wd:Q35869 .
+
+wd:Q23830542 owl:sameAs wd:Q35869 .
+
+wd:Q25626892 owl:sameAs wd:Q35869 .
+
+wd:Q83887575 owl:sameAs wd:Q35869 .
+
+s:Q35869-2E1F6A06-E14B-4533-B207-61DD01CB57D3 pqv:P580 v:0fe8fcb754ca9e8d828baee034479a75 .
+
+s:Q35869-4D364FA6-1C3C-44F7-8983-D27D7FF6F8B8 pqv:P580 v:5510b4b0185aa20586d4fe3811c08cbe .
+
+s:Q35869-93628CF7-446C-4B35-87F2-B2EB899FD872 pqv:P580 v:a3e73d0bebb80f81d7e82e5b15153137 .
+
+s:Q35869-A03AA7E4-5CB0-4F7A-B455-C18C989F7FEE pqv:P580 v:a5708bfb95ff73d5c494d7dfee77d234 .
+
+s:Q35869-B72B4D64-9000-4734-8F32-46B5423AB1E6 pqv:P580 v:8d266575a07b69effd0b6ff711724c64 .
+
+s:Q35869-C5ACC448-5288-4ADE-86AF-1800770FAFDC pqv:P580 v:13fc9c741c01298ca1aca111dc3605ea .
+
+s:Q35869-E38E7124-16F7-43AE-AA52-F196FEC6003B pqv:P580 v:5f3df9b4697532bd1d874d98fee6f3ed .
+
+s:Q35869-E914CD36-0BA1-4B4A-B369-862C6EAFB049 pqv:P580 v:26e95d5f08feff22969ae066e000e808 .
+
+s:Q35869-F709A1FA-BA29-4551-BAEE-73E1A82934D4 psn:P244 <https://id.loc.gov/authorities/names/sh85008860> .
+
+wdno:P1051 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1051 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1245 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1245 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1296 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1296 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1417 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1417 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P143 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P143 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1461 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1461 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1542 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1542 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1692 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1692 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P18 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P18 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1810 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1810 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1889 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1889 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P1995 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P1995 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2096 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2096 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2115 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2115 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2176 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2176 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P227 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P227 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2293 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2293 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2347 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2347 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P244 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P244 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P248 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P248 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P279 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P279 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2888 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2888 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2892 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2892 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P2924 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P2924 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3219 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3219 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3222 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3222 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3417 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3417 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3471 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3471 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3569 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3569 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P373 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P373 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3827 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3827 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P3841 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P3841 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P407 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P407 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P4229 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P4229 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P4254 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P4254 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P4390 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P4390 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P4527 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P4527 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P459 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P459 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P4656 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P4656 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P486 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P486 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P492 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P492 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5008 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5008 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5019 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5019 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P508 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P508 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5082 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5082 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5131 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5131 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5395 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5395 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P557 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P557 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5642 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5642 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P577 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P577 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P580 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P580 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P5806 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P5806 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P604 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P604 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P646 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P646 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P665 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P665 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P667 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P667 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P672 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P672 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P673 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P673 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P698 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P698 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P699 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P699 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7033 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7033 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7329 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7329 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P780 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P780 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7807 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7807 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7818 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7818 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7827 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7827 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7829 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7829 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P790 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P790 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7982 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7982 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P7995 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P7995 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P813 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P813 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P8349 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P8349 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P8408 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P8408 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P854 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P854 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P8785 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P8785 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P910 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P910 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P920 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P920 ;
+            owl:someValuesFrom owl:Thing ] .
+
+wdno:P935 owl:complementOf [ a owl:Restriction ;
+            owl:onProperty wdt:P935 ;
+            owl:someValuesFrom owl:Thing ] .
+
+ref:026d6d3ed63a9b259de29ee071cdee518e871830 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:04cfc7bec0f349bad8c8e0d7b2bae829404f95b7 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:118e753a3ea1e83242884addee2afacf34203412 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:18651a3263e8ea2a8f449e56f0d6d4cb88e3dd3f prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:1bcb10c019dda0dd5a2d47028948e542c15ae92f prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:1ca35ce643ddd7f451a23aa2a64894866b852dad prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:1fcd46c38d4da6b6ecfc635199470de0f2e8e42a prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:2198b5eef100e16a846936de2981593ba221fc30 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:2209b87bf913ce14f73f26798e66723121db88c9 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:298712ab45bfa2eb2a8043e0377b0b8724a516eb prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:2b00cb481cddcac7623114367489b5c194901c4a prv:P577 v:f987783e1f9c9fa0cb0b774d330af52d .
+
+ref:2c9c50c24bbb3a70c55efa0dd263b6d67c5a50dc prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:2d8e526bcb66cde30dfd97310772888162ab425a prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:2eb6ba8222abf8e893eabc293ce1de93b8e46e86 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:2f3ba327415a4a5dfaf9a7fae1875021c6b7ad20 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:3274bdbec71b2d6c28698f13986034843c72cd57 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:39d3df66b6e5291bc12941f64330b4a4e6565705 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:3bcd1d57f42af8a9efe7165461bf303d978bad71 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:3dba56ea3698cab6315b8e0e10c4f8b6fb5baeed prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:42fbb5ee9a0662a4db1f9fcb1b60df1762d1d3f2 prv:P813 v:f3fc34f2f1077c1be05740e1dc1c9a25 .
+
+ref:4afc129b651ed53af509d404de397346d9ef4f4f prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:4e15828c7473b6a7d95b7f9dddc4085aeba2ba7d prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:573e91bca684803b2f2f6e6e888ee7ed9dd76d0a prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:574dbe4fe9d3e48325ccb701b849aa500474ab24 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:599708f3342b7a5c659e6a59f08145316f0e3105 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:5d09a54c658d01cb10e897772590d0007643236d prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:641428284126625b8b92d4262d11d1ba194bc86b prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:66809cc7615c279363bb6040e1e0dec7ceb57f1e prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:6e6d0e9fe158c47674ceccdfaabd785e84b0d967 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:6fda9aca36638fa6c0ee8641a2faf1f5491ce90c prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:778b4302b1904aae81e44ccd24dabdaeaa926c6e prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:77f9ac4a4c66e915c94389ecf9b5c734242a4bbf prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:78415cbddf73cc30dc360eafb708557fda926901 prv:P813 v:8a90af06a7915c7523c0c749aea50480 .
+
+ref:78603672e63ac7a6fc29dbf2b36bfe29bce051a0 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:7a6f27eb0aca9f1d6590f7389c6428790d91c928 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:7b090e4ffc9bbdc2200d204353fd8513aa93ed8f prv:P813 v:0daf97f0760c5b32a6d394cb46501568 .
+
+ref:7b36a09efaaf7129818eca7b6094ae1ab3df384e prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:7bc755ba03e912158e91aee46bb4ddd4e1068148 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:7bf9b9161f9378a0822698f32c3429078ac63608 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:82671483e4551650f8bb4dbc947401a0ef558def prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:8a9b56713569c07fa1653366207dd5d725e4d049 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:8b87ffeccb83a6ab179494faafd1afc773b1fcee prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:8e83333c614f68a8bebbdc3763192cd8122796b2 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:9a681f9dd95c90224547c404e11295f4f7dcf54e prv:P813 v:664bae4effccc18fd4ad1ae188fab025 .
+
+ref:9b4bc0d76abd55ed72c516eb12d5f526b96069d9 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:a0bf0ba523dc7ec9a24002eedc23abc02be52ac7 prv:P813 v:4e816689437e6f9748ea1c7f4c0f1973 .
+
+ref:a1bba81142251b57eb355fd289d741842a0912bb prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:a58abad2cb52eaa5e9af8f90d29c56154ca64ff9 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:a6c65b3ee31838621bdba0e355d5adfc28013255 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:b577d333d32d9a548ee03bf0ae73c454e016d976 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:bf93bc66cc3c3a93d18de7b92ee01c5af68f7767 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:c07270150671c0ac6c74c7402f2c4a9e026edcfd prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:c372905a225d645e7e191e154641f92c2cad9850 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:c671afa09beb9c16eed163617147457b8b3f0637 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:c7ef1af51cd8810b7930e2fd09ebfeab409eda64 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:c7f77d48f84da7c3a94a89172aad52305b9ca128 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:c864c34a1f7a8a45911d227f94981a4962045360 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:c95ee06bb07b8a2bb9517904e0cbf8b9fb3b9010 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:cb0e3bfe627cc5d96b5c85f1a9e2989fed9e76e7 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:cdef4ba78e1e209cc768c51be0850c7f74d0f2f2 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:d0b9d39b3e0c8a4d7e9cb0792962561fc87cba45 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:d8b2df3ef1c08882300192472fded56d4fa588db prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:db15b3ccb457eac7392ed0ba63eab2af178d2391 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:e0de6497c6b0d806d53417148abc060e0546ab8c prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:e16f522bdfbd08a3020417063d3f21b095132ec5 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:e171a8e473ace943577220c04a8f13da21bae49f prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:e1bc7aa8fd1fafa8cdbf2ea433d3f2e0e08f2eaa prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:e1f6d23d455fd543036c662b142ee64639cc0ec8 prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:e4a6c4e4308701b11dd053626298a4f731f378ba prv:P813 v:fce3b74194798f1ed8a71b1cb0c1b92b .
+
+ref:e8a783536b4be3c85282b548e1d8f29880f10813 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:ef64989f7875487d284a727120252b53e9360337 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:ef9affaae741102ea10f6c57aaaa0bb84df80335 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:f3dd7a64613c655d99f89f704f19c40404897c62 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:f6371e8ade5b355aa2b9cdd801e0f51acb562684 prv:P813 v:0c5f07ea6b6e92dd89849b978518123d .
+
+ref:fa6d8f0df4b0ed917169fadd791ae45d67f023a8 prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+ref:fd27158d525328858abd12d8c2cf3bd42447919d prv:P813 v:1ace6d36e7f93f294e3d0ff7407570aa .
+
+data:Q35869 a schema:Dataset ;
+    cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    schema:about wd:Q35869 ;
+    schema:dateModified "2021-05-10T19:39:37+00:00"^^xsd:dateTime ;
+    schema:softwareVersion "1.0.0" ;
+    schema:version 1418631634 ;
+    wikibase:identifiers 52 ;
+    wikibase:sitelinks 112 ;
+    wikibase:statements 147 .
+
+v:0daf97f0760c5b32a6d394cb46501568 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2019-05-15T00:00:00+00:00"^^xsd:dateTime .
+
+v:0fe8fcb754ca9e8d828baee034479a75 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1996-12-08T00:00:00+00:00"^^xsd:dateTime .
+
+v:13fc9c741c01298ca1aca111dc3605ea a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2001-02-15T00:00:00+00:00"^^xsd:dateTime .
+
+v:26e95d5f08feff22969ae066e000e808 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1998-02-20T00:00:00+00:00"^^xsd:dateTime .
+
+v:4e816689437e6f9748ea1c7f4c0f1973 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2020-05-25T00:00:00+00:00"^^xsd:dateTime .
+
+v:5510b4b0185aa20586d4fe3811c08cbe a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1996-09-25T00:00:00+00:00"^^xsd:dateTime .
+
+v:5f3df9b4697532bd1d874d98fee6f3ed a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1973-07-31T00:00:00+00:00"^^xsd:dateTime .
+
+v:664bae4effccc18fd4ad1ae188fab025 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2020-07-09T00:00:00+00:00"^^xsd:dateTime .
+
+v:8a90af06a7915c7523c0c749aea50480 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2021-05-10T00:00:00+00:00"^^xsd:dateTime .
+
+v:8d266575a07b69effd0b6ff711724c64 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1951-03-07T00:00:00+00:00"^^xsd:dateTime .
+
+v:a3e73d0bebb80f81d7e82e5b15153137 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "1961-04-17T00:00:00+00:00"^^xsd:dateTime .
+
+v:a5708bfb95ff73d5c494d7dfee77d234 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2000-08-08T00:00:00+00:00"^^xsd:dateTime .
+
+v:f3fc34f2f1077c1be05740e1dc1c9a25 a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2018-10-08T00:00:00+00:00"^^xsd:dateTime .
+
+v:f987783e1f9c9fa0cb0b774d330af52d a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2013-10-28T00:00:00+00:00"^^xsd:dateTime .
+
+wd:Q35869 wdtn:P244 <https://id.loc.gov/authorities/names/sh85008860> .
+
+v:1ace6d36e7f93f294e3d0ff7407570aa a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2018-11-02T00:00:00+00:00"^^xsd:dateTime .
+
+v:fce3b74194798f1ed8a71b1cb0c1b92b a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2016-12-13T00:00:00+00:00"^^xsd:dateTime .
+
+v:0c5f07ea6b6e92dd89849b978518123d a wikibase:TimeValue ;
+    wikibase:timeCalendarModel wd:Q1985727 ;
+    wikibase:timePrecision 11 ;
+    wikibase:timeTimezone 0 ;
+    wikibase:timeValue "2020-04-30T00:00:00+00:00"^^xsd:dateTime .
+
