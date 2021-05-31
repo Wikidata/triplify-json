@@ -21,6 +21,10 @@ function conv (qid, json_item) {
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'reference'), pname('pr', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'referenceValue'), pname('prv', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'novalue'), pname('wdno', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'directClaimNormalized'), pname('wdtn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'qualifierValueNormalized'), pname('pqn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'referenceValueNormalized'), pname('prn', pid)))
+    rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'statementValueNormalized'), pname('psn', pid)))
     rdf_item.add(quad(pname('wd', pid), pname('wikibase', 'propertyType'), namedNode(PropertyType[json_item['claims'][pid][0]["mainsnak"]["datatype"]])))
 
     let preferredSet = json_item['claims'][pid].find(
@@ -183,7 +187,11 @@ const PropertyType = {
   'edtf': '<http://wikiba.se/ontology#Edtf>',
   'url': 'http://wikiba.se/ontology#Url',
   'wikibase-item': 'http://wikiba.se/ontology#WikibaseItem',
-  'wikibase-property': 'http://wikiba.se/ontology#WikibaseProperty'
+  'wikibase-property': 'http://wikiba.se/ontology#WikibaseProperty',
+  'lexeme': 'http://wikiba.se/ontology#WikibaseLexeme',
+  'form': 'http://wikiba.se/ontology#WikibaseForm',
+  'sense': 'http://wikiba.se/ontology#WikibaseSense',
+  'musical-notation': 'http://wikiba.se/ontology#MusicalNotation',
 }
 
 const RankToRdf = {
